@@ -7,7 +7,6 @@
 // Execute `rustlings hint structs3` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 #[derive(Debug)]
 struct Package {
@@ -31,12 +30,20 @@ impl Package {
         }
     }
 
-    fn is_international(&self) -> ??? {
-        // Something goes here...
+    /*** Not on the &self argument in the function signature
+     * Having a method that takes ownership of the instance by using just self 
+     * as the first parameter is rare; this technique is usually used when the
+     * method transforms self into something else and you want to prevent the
+     * caller from using the original instance after the transformation. 
+     */
+
+    fn is_international(&self) -> bool {
+        if self.sender_country != self.recipient_country { true }
+        else { false }
     }
 
-    fn get_fees(&self, cents_per_gram: u32) -> ??? {
-        // Something goes here...
+    fn get_fees(&self, cents_per_gram: u32) -> u32 {
+        cents_per_gram * self.weight_in_grams
     }
 }
 
