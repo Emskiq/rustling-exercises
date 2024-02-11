@@ -1,3 +1,12 @@
+# Completed Rustling Exercises
+
+Even though they are available everywhere I would like to share my own solved exercises by [Rustling](https://github.com/rust-lang/rustlings).
+- Version used: 5.6.1
+
+I have tried to put some comments where extra info/extra way of completing the exercise has taken place.
+
+
+
 # Exercise to Book Chapter mapping
 
 | Exercise               | Book Chapter        |
