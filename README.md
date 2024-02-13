@@ -9,7 +9,7 @@ I have tried to put some comments where extra info/extra way of completing the e
 - similar concept with the borrowing and 'std::unique_ptr'
 - similarities with the Rc<T> and std::shared_ptr
 - memory management done at compile time??
-- 
+- templtate just like in C++, however concepts are enabled by default
 
 
 # Exercise to Book Chapter mapping
