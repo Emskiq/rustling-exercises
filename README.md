@@ -5,6 +5,11 @@ Even though they are available everywhere I would like to share my own solved ex
 
 I have tried to put some comments where extra info/extra way of completing the exercise has taken place.
 
+# Topic to cover for the C++ pov of Rust
+- similar concept with the borrowing and 'std::unique_ptr'
+- similarities with the Rc<T> and std::shared_ptr
+- memory management done at compile time??
+- 
 
 
 # Exercise to Book Chapter mapping
