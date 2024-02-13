@@ -1,18 +1,29 @@
-# Completed Rustling Exercises
+# Rustling exercises
 
-Even though they are available everywhere I would like to share my own solved exercises by [Rustling](https://github.com/rust-lang/rustlings).
+Solved [Rustling](https://github.com/rust-lang/rustlings) exercises.
 - Version used: 5.6.1
 
-I have tried to put some comments where extra info/extra way of completing the exercise has taken place.
+This repository and future ones will serve as a documentation of my Rust learning path. 
 
-# Topic to cover for the C++ pov of Rust
+There is no better way to solidify one's understanding of a subject than by explaining it to others or recounting one's own perspective. This README aims to capture my insights and experiences during the process.
+
+# C++ vs Rust
+
+## Similarities 
+
+### - Syntax structure.
+Rust's syntax closely resembles that of C++, as both are [statically and strongly typed languages](https://www.techtarget.com/searchapparchitecture/tip/Static-vs-dynamic-typing-The-details-and-differences). Many keywords and basic types are similar between the two. Rust is expressive, and some argue it is easier to read (though I may reserve judgment on that until I become more familiar with it).
+
+### - Some similar concepts
 - similar concept with the borrowing and 'std::unique_ptr'
 - similarities with the Rc<T> and std::shared_ptr
+
+## Upgrades from C++
 - memory management done at compile time??
 - templtate just like in C++, however concepts are enabled by default
 
 
-# Exercise to Book Chapter mapping
+## Exercise to Book Chapter mapping (original content in the Rustling Readme)
 
 | Exercise               | Book Chapter        |
 | ---------------------- | ------------------- |
