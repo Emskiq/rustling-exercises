@@ -40,10 +40,32 @@ impl Default for Person {
 // If while parsing the age, something goes wrong, then return the default of
 // Person Otherwise, then return an instantiated Person object with the results
 
-// I AM NOT DONE
-
 impl From<&str> for Person {
     fn from(s: &str) -> Person {
+        let mut dp = Person::default();
+        if s == "" {
+            dp
+        }
+        else {
+            let mut args: Vec<&str> = s.split(',').collect();
+
+            /// first check if we had enough ',' in the input string
+            if args.len() < 2 {
+                return dp;
+            }
+            if args[0] == "" || args[1] == "" {
+                return dp;
+            }
+
+            //// Firsth check if the age is convertible and then proceed with name assgienment....
+            match args[1].to_string().parse::<usize>() {
+                Ok(n) => dp.age = n,
+                Err(e) => return dp,
+            }
+
+            dp.name = args[0].to_string();
+            dp
+        }
     }
 }
 
