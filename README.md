@@ -19,6 +19,7 @@ Rust's syntax closely resembles that of C++, as both are [statically and strongl
 ### - Some similar concepts
 
 - Borrowing and 'std::unique_ptr'
+
 In both C++ and Rust, the concept of borrowing plays a crucial role in managing ownership and references. 
 In C++, std::unique_ptr represents exclusive ownership and ensures that a resource is deallocated 
 when the owning pointer goes out of scope. 
@@ -48,6 +49,7 @@ such as manual memory deallocation or reliance on smart pointers.
 Thus the compiler is permitting us from passing dangling references.
 
 - Templates/concept features
+
 Rust retains the concept of templates, a feature familiar to C++ developers. 
 However, Rust goes a step further by having concepts enabled by default. 
 In C++, concepts are a C++20 addition that allows developers to constrain templates, 
