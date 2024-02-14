@@ -6,8 +6,7 @@ Solved [Rustling](https://github.com/rust-lang/rustlings) exercises.
 This repository and future ones will serve as a documentation of my Rust learning path. 
 
 There is no better way to solidify one's understanding of a subject than by explaining it to others or recounting one's own perspective. 
-The paragraphs below aim to share my insights concerning certain parallels and advancements from C++ in the context of Rust. 
-It’s crucial to note, though, that these reflections are from a beginner’s standpoint, and their application may be limited in clarity or precision.
+The paragraphs below aim just that: share my insights concerning certain parallels and advancements from C++ in the context of Rust.
 
 # C++ vs Rust
 
@@ -16,9 +15,9 @@ It’s crucial to note, though, that these reflections are from a beginner’s s
 ### - Syntax structure.
 Rust's syntax closely resembles that of C++, as both are [statically and strongly typed languages](https://www.techtarget.com/searchapparchitecture/tip/Static-vs-dynamic-typing-The-details-and-differences). Many keywords and basic types are similar between the two. Rust is expressive, and some argue it is easier to read (though I may reserve judgment on that until I become more familiar with it).
 
-### - Some similar concepts
+### - Similar concepts
 
-- Borrowing and 'std::unique_ptr'
+- **Borrowing and 'std::unique_ptr'**
 
 In both C++ and Rust, the concept of borrowing plays a crucial role in managing ownership and references. 
 In C++, std::unique_ptr represents exclusive ownership and ensures that a resource is deallocated 
@@ -28,7 +27,7 @@ Similarly, Rust’s borrowing mechanism allows for safe references without sacri
 to the functionality provided by std::unique_ptr
 
 
-- Rc<T> and 'std::shared_ptr'
+- **Rc<T> and 'std::shared_ptr'**
 
 Another notable convergence between C++ and Rust lies in 
 their handling of shared ownership. C++ employs std::shared_ptr, 
